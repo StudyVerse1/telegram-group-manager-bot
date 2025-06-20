@@ -3,7 +3,7 @@ from telegram import Update, ChatPermissions
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("8176386573:AAEoWSjsHe7uUxeAwcQ9HS6BY9gpm_1nNwY")
 if not TOKEN:
     raise Exception("BOT_TOKEN not found in environment variables.")
 
